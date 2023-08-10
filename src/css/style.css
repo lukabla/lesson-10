@@ -1,9 +1,18 @@
-@font-face {
-  font-family: "helve1";
+/* @font-face {
+  font-family: "Helve1";
   src: url("../fonts/HelveticaNeueLTStd-Lt.woff2") format("woff2"),
     url("../fonts/HelveticaNeueLTStd-Lt.woff") format("woff"),
     url("../fonts/HelveticaNeueLTStd-Lt.ttf") format("truetype");
   font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} */
+@font-face {
+  font-family: "Helve1";
+  src: url("../fonts/HelveticaNeueBold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueBold.woff") format("woff"),
+    url("../fonts/HelveticaNeueBold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -135,14 +144,14 @@ img {
 }
 
 h2,
-h3,
+.h3,
 label,
 .send,
 .icons a,
 .form-box input,
 .form-box textarea {
   font-family: Helve1;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #ffffff;
 }
 .footer {
