@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "helve1";
+  src: url("HelveticaNeueLTStd-Lt.woff2") format("woff2"),
+    url("HelveticaNeueLTStd-Lt.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helve2";
+  src: url("HelveticaNeueLTGEO-55Roman.woff2") format("woff2"),
+    url("HelveticaNeueLTGEO-55Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
