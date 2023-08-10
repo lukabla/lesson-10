@@ -60,6 +60,7 @@ iframe {
   width: 463px;
   height: 197px;
   margin-bottom: 70px;
+  border-radius: 15px;
 }
 
 .form-box,
@@ -70,6 +71,7 @@ iframe {
 }
 .form-box {
   gap: 40px;
+  width: 463px;
 }
 label {
   font-size: 16px;
