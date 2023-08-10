@@ -161,6 +161,12 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
+}
+.heart2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .heart {
   width: 26px;
